@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"
+            android:layout_marginBottom="40dp"
+
+            ></ImageView>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:hint="User name"
+            android:textColorHint="#38A7FF"
+            android:ems="15"
+            android:background="@drawable/duongvien1"
+            >
+        </EditText>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:ems="15"
+            android:hint="********"
+            android:textColorHint="#38A7FF"
+            android:background="@drawable/duongvien1"
+            android:layout_marginBottom="30dp"
+            >
+        </EditText>
+        <Button
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN ME"
+            android:textColor="@color/white"
+            android:backgroundTint="#38A7FF"
+            ></Button>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOST password?"
+            android:textColor="#38A7FF"
+            android:layout_marginTop="250px"
+            ></TextView>
+    </LinearLayout>
+
+
+</RelativeLayout>
