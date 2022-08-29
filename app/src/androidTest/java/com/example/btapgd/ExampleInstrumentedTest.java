@@ -1,4 +1,4 @@
-package com.example.dangky;
+package com.example.btapgd;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.dangky", appContext.getPackageName());
+        assertEquals("com.example.btapgd", appContext.getPackageName());
     }
 }
