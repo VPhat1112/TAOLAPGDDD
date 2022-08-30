@@ -6,241 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Hello World!"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:gravity="center"
         android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="300dp"
-            android:background="#7CBCE8"
-            android:orientation="vertical"
 
-            >
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="153dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/logo"
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="100px"
-                    android:layout_height="100px"
-                    android:src="@drawable/muiten"
+            ></ImageView>
 
-                    ></ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Back"
-                    android:textColor="@color/white"
-                    android:textSize="80px"
-                    >
-                </TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Profile"
-                    android:textColor="@color/white"
-                    android:textSize="80px"
-                    android:layout_marginLeft="190px"
-                    >
-                </TextView>
-                <ImageView
-                    android:layout_width="100px"
-                    android:layout_height="100px"
-                    android:src="@drawable/banhrang"
-                    android:layout_marginLeft="250px"
-                    >
-
-                </ImageView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="vertical"
-                >
-                <ImageView
-                    android:layout_width="300px"
-                    android:layout_height="300px"
-                    android:src="@drawable/avatar"
-
-                    >
-
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Profile Name"
-                    android:textColor="@color/white"
-                    android:textSize="60px"
-                    >
-                </TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50px"
-                >
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="30px"
-                    android:layout_marginRight="30px"
-                    >
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="125"
-                            android:textColor="@color/white"
-                            android:textSize="80px"
-                            ></TextView>
-                    </LinearLayout>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Friends"
-                        android:textColor="@color/white"
-                        android:textSize="40px"
-                        ></TextView>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:layout_marginLeft="30px"
-                    android:layout_marginRight="30px"
-                    >
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        >
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="250"
-                            android:textColor="@color/white"
-                            android:textSize="80px"
-                            ></TextView>
-                    </LinearLayout>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Followers"
-                        android:textColor="@color/white"
-                        android:textSize="40px"
-
-                        ></TextView>
-                </LinearLayout>
-            </LinearLayout>
-
-        </LinearLayout>
-        <LinearLayout
+        <EditText
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="vertical"
-            >
-            <LinearLayout
-                android:layout_width="800px"
-                android:layout_height="100px"
-                android:ems="15"
-                android:background="@drawable/duongvien"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="email : "
-                    android:textColor="#7CBCE8"
-                    android:textSize="50px"
-                    ></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="mail@email.com"
-                    android:textColor="#7CBCE8"
-                    android:textSize="40px"
-                    ></TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="800px"
-                android:layout_height="100px"
-                android:ems="15"
-                android:background="@drawable/duongvien">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Phone : "
-                    android:textColor="#7CBCE8"
-                    android:textSize="50px"
-                    ></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="+ 99 999 555 222"
-                    android:textColor="#7CBCE8"
-                    android:textSize="40px"
-                    ></TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="800px"
-                android:layout_height="100px"
-                android:ems="15"
-                android:background="@drawable/duongvien"
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Skype : "
-                    android:textColor="#7CBCE8"
-                    android:textSize="50px"
-                    ></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="me007"
-                    android:textColor="#7CBCE8"
-                    android:textSize="40px"
-                    ></TextView>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="800px"
-                android:layout_height="100px"
-                android:ems="15"
-                android:background="@drawable/duongvien"
+            android:layout_height="48dp"
+            android:background="@drawable/duongvien1"
+            android:ems="15"
+            android:hint="User name"
+            android:paddingLeft="10dp"
+            android:textColorHint="#38A7FF"></EditText>
 
-                >
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Web : "
-                    android:textColor="#7CBCE8"
-                    android:textSize="50px"
-                    ></TextView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="cssauthor.com/"
-                    android:textColor="#7CBCE8"
-                    android:textSize="40px"
-                    ></TextView>
-            </LinearLayout>
-        </LinearLayout>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/duongvien2"
+            android:ems="15"
+            android:hint="********"
+            android:paddingLeft="10dp"
+            android:textColorHint="#38A7FF"></EditText>
+
+        <Button
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#38A7FF"
+            android:text="LOGIN ME"
+            android:background="@drawable/duongvien3"
+
+            android:textColor="@color/white"></Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250px"
+            android:text="LOST password?"
+            android:textColor="#38A7FF"></TextView>
     </LinearLayout>
+
 
 </RelativeLayout>
